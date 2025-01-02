@@ -44,8 +44,8 @@ namespace WindowsGSM.Plugins
         public object QueryMethod = new A2S(); // Query method should be use on current server type. Accepted value: null or new A2S() or new FIVEM() or new UT3()
 
         // - Game server default values
-        public string Port = "27015"; // Default port
-        public string QueryPort = "27016"; // Default query port. This is the port specified in the Server Manager in the client UI to establish a server connection.
+        public string Port = "7777"; // Default port
+        public string QueryPort = "27015"; // Default query port. This is the port specified in the Server Manager in the client UI to establish a server connection.
         
         // TODO: Unsupported option
         public string Defaultmap = "Default"; // Default map name
