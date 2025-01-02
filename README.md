@@ -11,7 +11,7 @@
 
 ### Plugin Install
 
-1. Download [latest]() release.
+1. Download [latest](https://github.com/tadavispmd040507/WindowsGSM.ASKA/releases/download/v1.0/WindowsGSM.ASKA.zip) release.
 2. You have 2 options...
     a. Extract the file file downloaded and move the **ASKA.cs** folder to **WindowsGSM/plugins** then press the **Puzzle** icon in the bottom left corner and press the **[RELOAD PLUGINS]** or **Restart** WindowsGSM.
     b. Press the **Puzzle** icon in the bottom left corner then press the **[IMPORT PLUGIN]** and select the downloaded zip file.
