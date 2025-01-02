@@ -20,7 +20,7 @@ namespace WindowsGSM.Plugins
             author = "Gimpy",
             description = "WindowsGSM plugin for supporting ASKA Dedicated Server",
             version = "1.0",
-            url = "https://davisfi.xyz", // Github repository link (Best practice)
+            url = "https://github.com/tadavispmd040507/WindowsGSM.ASKA", // Github repository link (Best practice)
             color = "#12ff12" // Color Hex
         };
 
@@ -53,7 +53,7 @@ namespace WindowsGSM.Plugins
         // TODO: May not support
         public string Maxplayers = "4"; // Default maxplayers
 
-        public string Additional = ""; // Additional server start parameter
+        //public string Additional = ""; // Additional server start parameter
 
 
         // - Create a default cfg for the game server after installation
@@ -88,7 +88,7 @@ namespace WindowsGSM.Plugins
                     WorkingDirectory = ServerPath.GetServersServerFiles(_serverData.ServerID),
                     FileName = shipExePath,
                     Arguments = param,
-                    WindowStyle = ProcessWindowStyle.Normal,
+                    WindowStyle = ProcessWindowStyle.Minimized,
                     CreateNoWindow = false,
                     UseShellExecute = false
                 },
@@ -101,6 +101,8 @@ namespace WindowsGSM.Plugins
                 p.StartInfo.RedirectStandardInput = true;
                 p.StartInfo.RedirectStandardOutput = true;
                 p.StartInfo.RedirectStandardError = true;
+                p.StartInfo.WindowStyle = ProcessWindowStyle.Hidden;
+                p.StartInfo.CreateNoWindow = true;
                 var serverConsole = new ServerConsole(_serverData.ServerID);
                 p.OutputDataReceived += serverConsole.AddOutput;
                 p.ErrorDataReceived += serverConsole.AddOutput;
