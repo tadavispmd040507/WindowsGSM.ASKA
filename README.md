@@ -1,7 +1,7 @@
-# WindowsGSM.ASKA
-🧩 Plugin for WindowsGSM to run an ASKA Dedicated Server!!
+# 🧩 WindowsGSM.ASKA
+Plugin for WindowsGSM to run an ASKA Dedicated Server!!
 
-### WindowsGSM Install
+## WindowsGSM Install
 
 1. Download WindowsGSM from https://windowsgsm.com/
 2. Create a Folder where you want the progame installed.
@@ -9,32 +9,32 @@
 4. Move the WindowsGSM.exe to the folder created in Step 2.
 5. Run the WindowsGSM.exe
 
-### Plugin Install
+## Plugin Install
 
 1. Download [latest](https://github.com/tadavispmd040507/WindowsGSM.ASKA/releases/download/v1.0/WindowsGSM.ASKA.zip) release.
 2. You have 2 options...
     - Extract the file file downloaded and move the **ASKA.cs** folder to **WindowsGSM/plugins** then press the **Puzzle** icon in the bottom left corner and press the **[RELOAD PLUGINS]** or **Restart** WindowsGSM.
     - Press the **Puzzle** icon in the bottom left corner then press the **[IMPORT PLUGIN]** and select the downloaded zip file.
 
-### Official Documentation
+## 📋 Official Documentation
 
-📋 This can be found in the install directory of the server **WindowsGSM/servers/{Server ID}/serverfiles/ASKA Dedicated Server Setup - EN.pdf**
+This can be found in the install directory of the server **WindowsGSM/servers/{Server ID}/serverfiles/ASKA Dedicated Server Setup - EN.pdf**
 
-### Steam Store Page
+## 🎮 Steam Store Page
 
-🎮 https://store.steampowered.com/app/1898300/ASKA/
+https://store.steampowered.com/app/1898300/ASKA/
 
-### Dedicated Server SteamDB Page
+## 🖥️ Dedicated Server SteamDB Page
 
-🖥️ https://steamdb.info/app/3246670/info/
+https://steamdb.info/app/3246670/info/
 
-### Port Forwarding (REQUIRED)
+## Port Forwarding (REQUIRED)
 
 - If you don't know how to do this then Google is your friend.
 - 7777 TCP/UDP - Steam Game Port (Unless Port Was Changed)
 - 27015 TCP/UDP - Steam Query Port (Unless Port Was Changed)
 
-### Backup
+## Backup
 
 - Recommended to use External Program or Script via Task Scheduler (WindowsGSM will backup the entire server minus the saves since they aren't located in the server install location)
 - Recommended Files
@@ -42,9 +42,10 @@
     - C:/Users/{USER}/AppData/LocalLow/Sand Sailor Studio/Aska/data/server/savegame_{Save Game ID In "server properties.txt"}
     - WindowsGSM/servers/{SERVER ID}/configs
 
-### Parameters/Config Guide
+## Parameters/Config Guide
 
-Currently there are none. You need to edit the **server properties.exe** directly, it can be found at **WindowsGSM/servers/{Server ID}/serverfiles/** The settings seen below are default options, descriptions can be found in the **"server properties.txt"**
+Currently there are no launch args, you need to edit the **server properties.exe** directly, it can be found at **WindowsGSM/servers/{Server ID}/serverfiles/** The settings seen below are default options, descriptions can be found in the **"server properties.txt"**
+```
 - save id = {Will Auto Fill On First Launch}
 - display name = {Required}
 - server name = {Required}
@@ -71,18 +72,19 @@ Currently there are none. You need to edit the **server properties.exe** directl
 - wulfar population = medium {Options: low, medium, high}
 - herbivore population = medium {Options: low, medium, high}
 - bear population = medium {Options: low, medium, high}
+```
 
-### Key Notes
+## Key Notes
 
 This game is in **Early Access**, WindowsGSM and this plugin is not responsible for any lost data that could occure to your server.
 
-### WindowsGSM Support
+## WindowsGSM Support
 [WindowsGSM](https://windowsgsm.com/discord)
 
-### Donations
+## Donations
 
 [Paypal](https://paypal.me/GDavis6899)
 
-### Thanks
+## Thanks
 
 Thanks to Raziel7893 for the Smallworld Plugin which I used for guidance.
