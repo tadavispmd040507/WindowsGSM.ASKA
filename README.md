@@ -46,32 +46,32 @@ https://steamdb.info/app/3246670/info/
 
 Currently there are no launch args, you need to edit the **server properties.exe** directly, it can be found at **WindowsGSM/servers/{Server ID}/serverfiles/** The settings seen below are default options, descriptions can be found in the **"server properties.txt"**
 ```
-- save id = {Will Auto Fill On First Launch}
-- display name = {Required}
-- server name = {Required}
-- seed = {Not Required}
-- password = {Not Required}
-- steam game port = {Required}
-- steam query port = {Required}
-- authentication token = {Required}
-- region = default {Options: default, asia, japan, europe, south america, south korea, usa east, usa west, australia, canada east, hong kong, india, turkey, united arab emirates, usa south central}
-- keep server world alive = false {Options: true or false}
-- autosave style = every morning {Options: every morning, disabled, every 5 minutes, every 10 minutes, every 15 minutes, every 20 minutes}
-- mode = normal {Options: normal or custom}
-    - ALL OPTIONS BELOW THIS WILL ONLY WORK WITH **CUSTOM** MODE SELECTED
-- terrain aspect = normal {Options: smooth, normal, rocky}
-- terrain height = normal {Options: flat, normal, varied}
-- starting season = spring {Options: spring, summer, autumn, winter}
-- year length = normal {Options: minimum, reduced, default, extended, maximum}
-- precipitation = 3 {Options: 0 (sunny) through 6 (soggy)}
-- day length = normal {Options: minimum, reduced, default, extended, maximum}
-- structure decay = medium {Options: off, easy, normal, hard}
-- invasion dificulty = normal {Options: off, easy, normal, hard}
-- monster density = medium {Options: low, medium, high}
-- monster population = medium {Options: low, medium, high}
-- wulfar population = medium {Options: low, medium, high}
-- herbivore population = medium {Options: low, medium, high}
-- bear population = medium {Options: low, medium, high}
+save id = {Will Auto Fill On First Launch}
+display name = {Required}
+server name = {Required}
+seed = {Not Required}
+password = {Not Required}
+steam game port = {Required}
+steam query port = {Required}
+authentication token = {Required}
+region = default {Options: default, asia, japan, europe, south america, south korea, usa east, usa west, australia, canada east, hong kong, india, turkey, united arab emirates, usa south central}
+keep server world alive = false {Options: true or false}
+autosave style = every morning {Options: every morning, disabled, every 5 minutes, every 10 minutes, every 15 minutes, every 20 minutes}
+mode = normal {Options: normal or custom}
+  - ALL OPTIONS BELOW THIS WILL ONLY WORK WITH **CUSTOM** MODE SELECTED
+terrain aspect = normal {Options: smooth, normal, rocky}
+terrain height = normal {Options: flat, normal, varied}
+starting season = spring {Options: spring, summer, autumn, winter}
+year length = normal {Options: minimum, reduced, default, extended, maximum}
+precipitation = 3 {Options: 0 (sunny) through 6 (soggy)}
+day length = normal {Options: minimum, reduced, default, extended, maximum}
+structure decay = medium {Options: off, easy, normal, hard}
+invasion dificulty = normal {Options: off, easy, normal, hard}
+monster density = medium {Options: low, medium, high}
+monster population = medium {Options: low, medium, high}
+wulfar population = medium {Options: low, medium, high}
+herbivore population = medium {Options: low, medium, high}
+bear population = medium {Options: low, medium, high}
 ```
 
 ## Key Notes
