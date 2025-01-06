@@ -54,12 +54,22 @@ namespace WindowsGSM.Plugins
         // - Create a default cfg for the game server after installation
         public async void CreateServerCFG()
         {
-            //No editable config file
+            // Nothing
         }
 
         // - Start server function, return its Process to WindowsGSM
         public async Task<Process> Start()
         {
+            string configPath = Functions.ServerPath.GetServersServerFiles(serverData.ServerID, @"server properties.txt");
+            {
+            string configText = File.ReadAllText(configPath);
+            configText = configText.Replace("Default Session", serverData.ServerName);
+            configText = configText.Replace("27015", serverData.ServerPort);
+            configText = configText.Replace("27016", serverData.ServerQueryPort);
+            configText = configText.Replace("authentication token =", "authentication token = "+serverData.ServerGSLT);
+            File.WriteAllText(configPath, configText);
+            }
+
             string shipExePath = Functions.ServerPath.GetServersServerFiles(serverData.ServerID, StartPath);
             if (!File.Exists(shipExePath))
             {
