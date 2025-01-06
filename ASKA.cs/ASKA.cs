@@ -16,7 +16,7 @@ namespace WindowsGSM.Plugins
             name = "WindowsGSM.ASKA", // WindowsGSM.XXXX
             author = "Gimpy",
             description = "WindowsGSM plugin for supporting ASKA Dedicated Server",
-            version = "1.0",
+            version = "1.1",
             url = "https://github.com/tadavispmd040507/WindowsGSM.ASKA", // Github repository link (Best practice)
             color = "#12ff12" // Color Hex
         };
