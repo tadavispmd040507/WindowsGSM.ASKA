@@ -74,6 +74,10 @@ herbivore population = medium {Options: low, medium, high}
 bear population = medium {Options: low, medium, high}
 ```
 
+## Steam Game Server Account Management
+
+ASKA requires a **Login Token**, to get this head over to [Steam](https://steamcommunity.com/dev/managegameservers) and create one using **1898300** as the App ID, then copy and paste the generated **Login Token** to the **server properties.txt** next to **authentication token =** and save it.
+
 ## Key Notes
 
 This game is in **Early Access**, WindowsGSM and this plugin is not responsible for any lost data that could occure to your server.

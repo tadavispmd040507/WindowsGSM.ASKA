@@ -66,7 +66,6 @@ namespace WindowsGSM.Plugins
             configText = configText.Replace("Default Session", serverData.ServerName);
             configText = configText.Replace("27015", serverData.ServerPort);
             configText = configText.Replace("27016", serverData.ServerQueryPort);
-            configText = configText.Replace("authentication token =", "authentication token = "+serverData.ServerGSLT);
             File.WriteAllText(configPath, configText);
             }
 
