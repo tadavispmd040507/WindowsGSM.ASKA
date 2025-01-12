@@ -16,7 +16,7 @@ namespace WindowsGSM.Plugins
             name = "WindowsGSM.ASKA", // WindowsGSM.XXXX
             author = "Gimpy",
             description = "WindowsGSM plugin for supporting ASKA Dedicated Server",
-            version = "1.1",
+            version = "1.2",
             url = "https://github.com/tadavispmd040507/WindowsGSM.ASKA", // Github repository link (Best practice)
             color = "#12ff12" // Color Hex
         };
@@ -66,6 +66,8 @@ namespace WindowsGSM.Plugins
             configText = configText.Replace("Default Session", serverData.ServerName);
             configText = configText.Replace("27015", serverData.ServerPort);
             configText = configText.Replace("27016", serverData.ServerQueryPort);
+            configText = configText.Replace("authentication token = ", "authentication token = "+serverData.ServerGSLT);
+            configText = configText.Replace(serverData.ServerGSLT+serverData.ServerGSLT, serverData.ServerGSLT);
             File.WriteAllText(configPath, configText);
             }
 

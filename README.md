@@ -76,7 +76,10 @@ bear population = medium {Options: low, medium, high}
 
 ## Steam Game Server Account Management
 
-ASKA requires a **Login Token**, to get this head over to [Steam](https://steamcommunity.com/dev/managegameservers) and create one using **1898300** as the App ID, then copy and paste the generated **Login Token** to the **server properties.txt** next to **authentication token =** and save it.
+ASKA requires a **Login Token**, to get this head over to [Steam](https://steamcommunity.com/dev/managegameservers) and create one using **1898300** as the App ID, then copy and paste the generated **Login Token** to the **Server GSLT** in the **Edit Config** in WindowsGSM and save it. The plugin will write it to the **server properties.txt.**
+
+## Server Ports
+When you set the Server Ports in the **Edit Config** it will set them in the **server properties.txt** on the **FIRST** launch only, if you change them after that you will need to edit them in the **server properties.txt**
 
 ## Key Notes
 
