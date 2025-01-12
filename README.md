@@ -11,7 +11,7 @@ Plugin for WindowsGSM to run an ASKA Dedicated Server!!
 
 ## Plugin Install
 
-1. Download [latest](https://github.com/tadavispmd040507/WindowsGSM.ASKA/releases/download/v1.1/WindowsGSM.ASKA.7z) release.
+1. Download [latest](https://github.com/tadavispmd040507/WindowsGSM.ASKA/releases/download/V1.2/WindowsGSM.ASKA.7z) release.
 2. You have 2 options...
     - Extract the file file downloaded and move the **ASKA.cs** folder to **WindowsGSM/plugins** then press the **Puzzle** icon in the bottom left corner and press the **[RELOAD PLUGINS]** or **Restart** WindowsGSM.
     - Press the **Puzzle** icon in the bottom left corner then press the **[IMPORT PLUGIN]** and select the downloaded zip file.
